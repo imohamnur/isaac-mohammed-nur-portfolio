@@ -1,0 +1,32 @@
+.about__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15%;
+}
+
+.about__me {
+    width: 100%;
+    aspect-ratio: 1/1;
+    border-radius: 2rem;
+}
+
+.about__me-image {
+    margin-bottom: 2rem;
+}
+
+.about__me-image img {
+    border-radius: 50%;
+}
+
+.about__content a {
+    margin-top: 1rem;
+}
+  
+/* ========= MEDIA QUERIES (SMALL DEVICES) =========*/
+  
+@media screen and (max-width: 600px) {
+    .about__container {
+        flex-direction: column;
+    }
+}
