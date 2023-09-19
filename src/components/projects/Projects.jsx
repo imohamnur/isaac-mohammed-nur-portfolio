@@ -3,6 +3,7 @@ import './projects.css'
 import ProComp from './ProComp'
 import Youtube from '../../assets/youtube.png'
 import Bayyan from '../../assets/Bayyan.jpg'
+import Website from '../../assets/website.jpg'
 
 const Projects = () => {
   return (
@@ -12,10 +13,10 @@ const Projects = () => {
 
         <div className="container portfolio__container">
             <ProComp 
-                image={Youtube}
-                title='Youtube.com Clone'
-                github='https://github.com/imohamnur/Youtube.com-Clone-HMTL'
-                link="https://mail.google.com/mail/u/0/#inbox"
+                image={Website}
+                title='Isaac Mohammed Nur Portfolio'
+                github='https://github.com/imohamnur/isaac-mohammed-nur-portfolio'
+                link="http://isaacmohammednur.com"
             />
             <ProComp 
                 image={Bayyan}

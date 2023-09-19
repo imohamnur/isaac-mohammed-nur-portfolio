@@ -13,22 +13,14 @@ const Experiences = () => {
             <div className="experience">
                 <h3>Skills</h3>
                 <div className="experience__content">
-                    <ExpDetails 
-                        skill='HTML'
-                        skillLevel='Experienced'
-                    />
-                    <ExpDetails 
-                        skill='CSS'
-                        skillLevel='Intermediate'
-                    />
-                    <ExpDetails 
-                        skill='JavaScript'
-                        skillLevel='Intermediate'
-                    />
-                    <ExpDetails 
-                        skill='ReactJS'
-                        skillLevel='Beginner'
-                    />
+                    <ExpDetails skill='HTML'/>
+                    <ExpDetails skill='CSS'/>
+                    <ExpDetails skill='JavaScript'/>
+                    <ExpDetails skill='ReactJS'/>
+                    <ExpDetails skill='Python'/>
+                    <ExpDetails skill='Java'/>
+                    <ExpDetails skill='Git'/>
+                    <ExpDetails skill='Agile/Scrum'/>
 
                 </div>
             </div>

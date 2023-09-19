@@ -50,4 +50,8 @@
     #experience{
         margin-top: 17rem;
     }
+
+    .experience {
+        width: 60%;
+    }
 }

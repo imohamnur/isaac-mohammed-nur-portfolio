@@ -8,7 +8,6 @@ const ExpDetails = (props) => {
       <BsPatchCheckFill className="exp-icon"/>
       <div>
         <h4>{props.skill}</h4>
-        <small className="text-light">{props.skillLevel}</small>
       </div>
     </article>
   )
