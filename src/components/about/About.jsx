@@ -17,7 +17,7 @@ const About = () => {
 
         <div className="about__content">
             <p>I'm Isaac Mohammed Nur, a senior at the University of Minnesota - Twin Cities, 
-              set to graduate in spring 2024. My career goal is to become a full stack developer. 
+              set to graduate in spring 2024. My career goal is to become a software engineer. 
               As I approach graduation, I look forward to contributing to the software development 
               field and creating innovative digital solutions.
             </p>

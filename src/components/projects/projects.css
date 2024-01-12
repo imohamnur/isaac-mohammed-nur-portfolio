@@ -36,7 +36,7 @@
 
 @media screen and (max-width: 1024px) {
     #projects {
-        margin-top: 20rem;
+        margin-top: 30rem;
     }
     .portfolio__container {
         grid-template-columns: 1fr 1fr;

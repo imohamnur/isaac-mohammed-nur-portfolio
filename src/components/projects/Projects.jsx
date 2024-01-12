@@ -1,9 +1,9 @@
 import React from 'react'
 import './projects.css'
 import ProComp from './ProComp'
-import Youtube from '../../assets/youtube.png'
-import Bayyan from '../../assets/Bayyan.jpg'
-import Website from '../../assets/website.jpg'
+import Youtube from '../../assets/youtube-clone-pic.png'
+import Todo from '../../assets/todo-list-pic.png'
+import Chat from '../../assets/gpt-clone-pic.png'
 
 const Projects = () => {
   return (
@@ -13,22 +13,22 @@ const Projects = () => {
 
         <div className="container portfolio__container">
             <ProComp 
-                image={Website}
-                title='Isaac Mohammed Nur Portfolio'
-                github='https://github.com/imohamnur/isaac-mohammed-nur-portfolio'
-                link="http://isaacmohammednur.com"
-            />
-            <ProComp 
-                image={Bayyan}
-                title='Bayyan Movie Reviews'
-                github='https://github.com/imohamnur'
-                link="https://thebayyan.org/"
+                image={Chat}
+                title='ChatGPT Clone'
+                github='https://github.com/imohamnur/chat-gpt-clone'
+                link="https://dancing-cucurucho-f963c8.netlify.app/"
             />
             <ProComp 
                 image={Youtube}
-                title='Youtube.com Clone'
-                github='https://github.com/imohamnur/Youtube.com-Clone-HTML'
-                link="https://timely-macaron-ae0ee0.netlify.app/"
+                title='Youtube Clone'
+                github='https://github.com/imohamnur/youtube-clone-react'
+                link="https://frabjous-basbousa-ad505d.netlify.app/"
+            />
+            <ProComp 
+                image={Todo}
+                title='FullStack Todo List'
+                github='https://github.com/imohamnur/full-stack-todo-list-react-express'
+                link={null}
             />
         </div>
     </section>
